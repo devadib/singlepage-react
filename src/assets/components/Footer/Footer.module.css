@@ -1,0 +1,21 @@
+.Footer__wrapper {
+  width: 750px;
+  margin: 0 auto;
+}
+
+.Footer__titel {
+  font-family: "Vazir-Bold";
+  font-size: 32px;
+  text-align: center;
+}
+.Footer__caption {
+  font-family: "Vazir-Light";
+  text-align: center;
+  margin: 24px 0;
+}
+.Footer__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}

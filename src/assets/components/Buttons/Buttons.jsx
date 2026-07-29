@@ -1,13 +1,15 @@
 import styles from "./Buttons.module.css";
 
-function Buttons() {
+function Buttons({ primary, secondary }) {
   return (
     <>
       <div className={styles.wrapper}>
         <button className={`${styles.btn} ${styles.primary_btn}`}>
-          خرید اشتراک
+          {primary}
         </button>
-        <button className={styles.btn}>ورود یا ثبت نام</button>
+        <button className={`${styles.btn} ${styles.secondary_btn}`}>
+          {secondary}
+        </button>
       </div>
     </>
   );

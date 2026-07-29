@@ -9,10 +9,27 @@ function Header() {
           <nav className={styles.navgation}>
             <div>
               <ul className={styles.menu}>
-                <li>خانه</li>
-                <li>کامپوننت ها</li>
-                <li>مقالات</li>
-                <li>درباره ما</li>
+                <li>
+                  <a className={styles.link} href="#">
+                    خانه
+                  </a>
+                </li>
+                <li>
+                  {" "}
+                  <a className={styles.link} href="#">
+                    کامپوننت ها
+                  </a>
+                </li>
+                <li>
+                  <a className={styles.link} href="#">
+                    مقالات
+                  </a>
+                </li>
+                <li>
+                  <a className={styles.link} href="#">
+                    درباره ها
+                  </a>
+                </li>
               </ul>
             </div>
             {/* <div><Buttons /></div>
@@ -20,7 +37,10 @@ function Header() {
               <button>hello</button>
             </div> */}
 
-            <Buttons></Buttons>
+            <Buttons
+              primary="ورود یا ثبت‌نام"
+              secondary="خرید اشتراک"
+            ></Buttons>
           </nav>
         </div>
       </header>
